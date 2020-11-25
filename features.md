@@ -138,10 +138,10 @@ these require no extra libraries
     ```javascript
      canvasFill("color");
     ```
-- ### canvasGradientFill <br> 
+- ### canvasGradientFillLinear <br> 
    sets fill to a two color gradient
     ```javascript
-     canvasGradientFill(color1, color2);
+     canvasGradientFillLinear(color1, color2);
     ```
 - ### canvasArc <br> 
    Use for circles, ring, arcs
