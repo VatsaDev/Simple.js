@@ -134,6 +134,10 @@ function includeHTML() {
   }
 }
 
+function repeat(times, func) {
+  _.times(times, func);
+}
+
 //canvas
 function canvasRectStroke(x, y, width, height, color, thickness) {
   var canvas = document.getElementById("canvas");
