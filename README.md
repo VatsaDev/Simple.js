@@ -34,7 +34,11 @@ https://code.jquery.com/jquery-2.1.0.js - jquery 2.1.0 <br>
 
   ctx.strokeStyle = "Green";
   ctx.beginPath();  
-  ctx.arc(100, 100, 30, 0, Math.PI * 2, false);  
+  ctx.arc(100, 100, 40, 0, Math.PI * 2, false);  
   ctx.stroke();
 
+  ctx.strokeStyle = "Blue";
+  ctx.beginPath();  
+  ctx.arc(100, 100, 50, 0, Math.PI * 2, false);  
+  ctx.stroke();
 ```
