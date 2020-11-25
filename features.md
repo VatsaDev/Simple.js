@@ -100,4 +100,9 @@ these require no extra libraries
     ```javascript
      <canvas id="canvas" width="2000" height="2000"></canvas>
     ``` <br>
-   *do not change the id or these functions will not work*
+   *do not change the id or these functions will not work*<br><br>
+- ### Keycode <br> 
+   logs keycode on press
+    ```javascript
+     keycode();
+    ```
