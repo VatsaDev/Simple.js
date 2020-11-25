@@ -57,8 +57,8 @@ function say(id, content) {
   $(id).text(content);
 }
 
-function addpage(id, content) {
-  $(id).append(content);
+function addpage(content) {
+  $("body").append(content);
 }
 
 function fadeout(id, sec) {
@@ -180,6 +180,16 @@ function canvasFill(color) {
   var canvas = document.getElementById("canvas");
   var ctx = canvas.getContext("2d");
   ctx.fillStyle = color;
+  ctx.fill();
+}
+
+function canvasGradientFill(color1, color2) {
+  var canvas = document.getElementById("canvas");
+  var ctx = canvas.getContext("2d");
+  var grd = ctx.createLinearGradient(0, 0, 200, 0);
+  grd.addColorStop(0, color1);
+  grd.addColorStop(1, color2);
+  ctx.fillStyle = grd;
   ctx.fill();
 }
 
