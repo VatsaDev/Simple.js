@@ -138,8 +138,18 @@ these require no extra libraries
      canvasFill("color");
     ```
 - ### canvasArc <br> 
-   sets fill
+   Use for circles, ring, arcs
     ```javascript
      canvasArc(x, y, radius, startAngle, endAngle, clockwise);
      //put in between paths
+    ```
+- ### canvasText <br> 
+   make text on canvas
+    ```javascript
+    canvasText(x, y, font, text)
+    ```
+- ### canvasStrokeText <br> 
+   make text on canvas, this is slightly thicker
+    ```javascript
+    canvasStrokeText(x, y, font, text)
     ```
