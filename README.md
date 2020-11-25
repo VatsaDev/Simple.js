@@ -47,3 +47,23 @@ https://code.jquery.com/jquery-2.1.0.js - jquery 2.1.0 <br>
   
 ```
 ### With Simple.js
+```javascript
+  canvasBeginPath("red", 4);
+
+  canvasArc(200, 200, 10, 0, 360, false, "red", 4);
+  canvasArc(200, 200, 10, 0, 360, false, "red", 4);
+canvasArc(200, 200, 10, 0, 360, false, "red", 4);
+
+  canvasArc(200, 200, 10, 0, 360, false, "red", 4);
+
+  ctx.strokeStyle = "Blue";
+  ctx.beginPath();  
+  ctx.arc(100, 100, 50, 0, Math.PI * 2, false);  
+  ctx.stroke();
+  
+  ctx.strokeStyle = "Purple";
+  ctx.beginPath();  
+  ctx.arc(100, 100, 60, 0, Math.PI * 2, false);  
+  ctx.stroke();
+  
+```
