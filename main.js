@@ -193,6 +193,16 @@ function canvasGradientFillLinear(color1, color2) {
   ctx.fill();
 }
 
+function canvasGradientFillRadial(color1, color2) {
+  var canvas = document.getElementById("canvas");
+  var ctx = canvas.getContext("2d");
+  var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+  grd.addColorStop(0, color1);
+  grd.addColorStop(1, color2);
+  ctx.fillStyle = grd;
+  ctx.fill();
+}
+
 function canvasArc(
   x,
   y,
