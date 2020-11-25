@@ -80,5 +80,5 @@ these require no extra libraries
  - ### mouseFollow <br> 
    this makes the id'ed element go to the mouse <br>
     ```javascript
-     clickfollow(id);
+     mousefollow(id);
     ```
