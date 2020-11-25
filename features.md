@@ -1,7 +1,7 @@
 # Welcome to the features page
 Here is the list of features in this library
 ## standard
-these
+these require no extra libraries
 
  - ### think <br> 
    this is console.log and is used like <br>
