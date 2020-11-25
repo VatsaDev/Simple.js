@@ -45,3 +45,8 @@ these require no extra libraries
     ```
     <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
     ```
+ - ### message <br> 
+   this is alert and is used like <br>
+    ```javascript
+    message("hello world")
+    ```
