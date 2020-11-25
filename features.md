@@ -96,4 +96,8 @@ these require no extra libraries
      keycode();
     ```
 ## Canvas <br>
-   the following draw using canvas and you need the following tag
+   the following draw using canvas and you need the following tag <br>
+    ```javascript
+     <canvas id="canvas" width="2000" height="2000"></canvas>
+    ``` <br>
+   *do not change the id or these functions will not work*
