@@ -8,9 +8,7 @@ to see changelog click [Here](changelog.md)<br><br>
 to use include these CDNs <br>
 https://code.jquery.com/jquery-2.1.0.js - jquery 2.1.0 <br>
 
-<br>
 ## Examples 
-<br>
 ### Without Simple.js 
 <br>
 
@@ -41,4 +39,10 @@ https://code.jquery.com/jquery-2.1.0.js - jquery 2.1.0 <br>
   ctx.beginPath();  
   ctx.arc(100, 100, 50, 0, Math.PI * 2, false);  
   ctx.stroke();
+  
+  ctx.strokeStyle = "Purple";
+  ctx.beginPath();  
+  ctx.arc(100, 100, 60, 0, Math.PI * 2, false);  
+  ctx.stroke();
+  
 ```
