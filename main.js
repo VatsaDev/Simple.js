@@ -183,7 +183,7 @@ function canvasFill(color) {
   ctx.fill();
 }
 
-function canvasGradientFill(color1, color2) {
+function canvasGradientFillLinear(color1, color2) {
   var canvas = document.getElementById("canvas");
   var ctx = canvas.getContext("2d");
   var grd = ctx.createLinearGradient(0, 0, 200, 0);
