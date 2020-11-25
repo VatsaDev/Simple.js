@@ -1,5 +1,8 @@
 # Welcome to the features page
-Here is the list of feature in this library
+Here is the list of features in this library
+## standard
+these
+
  - ### think <br> 
    this is console.log and is used like <br>
     ```javascript
@@ -39,6 +42,6 @@ Here is the list of feature in this library
    ```
 ## JQuery <br> 
    the following are jquery 2.10 functions <br> use CDN
-    ```javascript
-    message("hello world")
+    ```html
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
     ```
