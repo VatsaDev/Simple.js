@@ -14,4 +14,9 @@ Here is the list of feature in this library
     sub(x, y)
     mul(x, y)
     div(x, y)
+    mod(10, 1);
+    round(x);
+    power(x, y);
+    randomfrom(10, 100);
+    equal(10, 10);
     ```
