@@ -50,3 +50,8 @@ these require no extra libraries
     ```javascript
     say("#id", "hello world");
     ```
+ - ### Addpage <br> 
+   this is Dom manipulation and is used to add content to the bottom of the page like <br>
+    ```javascript
+    addpage("<p>hello world</p>");
+    ```
