@@ -67,3 +67,8 @@ these require no extra libraries
      fadein(id, time);
      //time and seconds
     ```
+ - ### ClickPos <br> 
+   this logs the mouse position <br>
+    ```javascript
+     clickPos(id);
+    ```
