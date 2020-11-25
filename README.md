@@ -1,8 +1,6 @@
 # Simple.js v0.0.1
 A js library to make things simple <br>
 you can use it to teach people like children, as it is designed to lower unfamiliar symbols and words
-<br> 
-v0.0.1 - this library now has basic canvas and include html functions 
 <br>
 <br>
 to see full features list click [Here](features.md)<br>
