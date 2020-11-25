@@ -32,3 +32,8 @@ Here is the list of feature in this library
     equal(x, y);
     // x == y
     ```
+ - ## Question <br>
+   this is prompt and is used like
+   ```javascript
+   question("");
+   ```
