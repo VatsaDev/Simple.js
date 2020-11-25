@@ -42,6 +42,6 @@ these require no extra libraries
    ```
 ## JQuery <br> 
    the following are jquery 2.10 functions <br> use CDN
-    ```html
+    ```
     <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
     ```
