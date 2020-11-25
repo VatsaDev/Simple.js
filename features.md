@@ -14,6 +14,7 @@ Here is the list of feature in this library
    these are the math functions and are used like <br>
     ```javascript
     add(x, y)
+    // x + y
     sub(x, y)
     mul(x, y)
     div(x, y)
