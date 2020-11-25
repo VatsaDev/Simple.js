@@ -40,6 +40,14 @@ these require no extra libraries
    ```javascript
    question("");
    ```
+ - ### Include html <br>
+   this is used to include html files and is used like
+   ```javascript
+   includeHTML("include");
+   //the js
+   <h5 include="filname"></h5>
+   //the html, can be any tag as the h5 tag is just an example
+   ```
 ## JQuery <br> 
    the following are jquery 2.10 functions <br> use CDN
     ```
