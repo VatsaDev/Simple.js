@@ -1,4 +1,4 @@
-# Welcome to the features page
+# Welcome to the features/docs page
 Here is the list of features in this library
 ## standard
 these require no extra libraries
