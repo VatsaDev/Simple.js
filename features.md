@@ -100,9 +100,40 @@ these require no extra libraries
     ```javascript
      <canvas id="canvas" width="2000" height="2000"></canvas>
     ``` <br>
-   *do not change the id or these functions will not work*<br><br>
-- ### Keycode <br> 
-   logs keycode on press
+   *do not change the id or these functions will not work*
+   <br><br>
+- ### canvasRectStroke <br> 
+   Draws lined rectangle
     ```javascript
-     keycode();
+     canvasRectStroke(x, y, width, height, color, thickness);
+    ```
+- ### canvasRect <br> 
+   Draws filled rectangle
+    ```javascript
+     canvasRect(x, y, width, height, color);
+    ```
+- ### canvasBeginPath <br> 
+   begins canvas path
+    ```javascript
+     canvasBeginPath(color, thickness);
+    ```
+- ### canvasMove <br> 
+   moves canvas pen
+    ```javascript
+     canvasMove(x, y);
+    ```
+- ### canvasLine <br> 
+   Draws canvas line
+    ```javascript
+     canvasLine(x, y);
+    ```
+- ### canvasClosePath <br> 
+   closes canvas path
+    ```javascript
+     canvasClosePath();
+    ```
+- ### canvasFill <br> 
+   sets fill
+    ```javascript
+     canvasFill("color");
     ```
