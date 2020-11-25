@@ -1,3 +1,4 @@
+//program
 function think(statement) {
   console.log(statement);
 }
@@ -95,270 +96,42 @@ function clickfollow(id) {
   });
 }
 
-//arrays
-wordArray = [
-  "vaporizing",
-  "melting",
-  "boiling",
-  "very hot",
-  "hot",
-  "warm",
-  "normal",
-  "chill",
-  "cold",
-  "very cold",
-  "freezing",
-  "icey",
-  "vaccum of space cold",
-  "Aardvark",
-  "Albatross",
-  "Alligator",
-  "Alpaca",
-  "Ant",
-  "Anteater",
-  "Antelope",
-  "Ape",
-  "Armadillo",
-  "Donkey",
-  "Baboon",
-  "Badger",
-  "Barracuda",
-  "Bat",
-  "Bear",
-  "Beaver",
-  "Bee",
-  "Bison",
-  "Boar",
-  "Buffalo",
-  "Butterfly",
-  "Camel",
-  "Capybara",
-  "Caribou",
-  "Cassowary",
-  "Cat",
-  "Caterpillar",
-  "Cattle",
-  "Chamois",
-  "Cheetah",
-  "Chicken",
-  "Chimpanzee",
-  "Chinchilla",
-  "Chough",
-  "Clam",
-  "Cobra",
-  "Cockroach",
-  "Cod",
-  "Cormorant",
-  "Coyote",
-  "Crab",
-  "Crane",
-  "Crocodile",
-  "Crow",
-  "Curlew",
-  "Deer",
-  "Dinosaur",
-  "Dog",
-  "Dogfish",
-  "Dolphin",
-  "Dotterel",
-  "Dove",
-  "Dragonfly",
-  "Duck",
-  "Dugong",
-  "Dunlin",
-  "Eagle",
-  "Echidna",
-  "Eel",
-  "Eland",
-  "Elephant",
-  "Elk",
-  "Emu",
-  "Falcon",
-  "Ferret",
-  "Finch",
-  "Fish",
-  "Flamingo",
-  "Fly",
-  "Fox",
-  "Frog",
-  "Gaur",
-  "Gazelle",
-  "Gerbil",
-  "Giraffe",
-  "Gnat",
-  "Gnu",
-  "Goat",
-  "Goldfinch",
-  "Goldfish",
-  "Goose",
-  "Gorilla",
-  "Goshawk",
-  "Grasshopper",
-  "Grouse",
-  "Guanaco",
-  "Gull",
-  "Hamster",
-  "Hare",
-  "Hawk",
-  "Hedgehog",
-  "Heron",
-  "Herring",
-  "Hippopotamus",
-  "Hornet",
-  "Horse",
-  "Human",
-  "Hummingbird",
-  "Hyena",
-  "Ibex",
-  "Ibis",
-  "Jackal",
-  "Jaguar",
-  "Jay",
-  "Jellyfish",
-  "Kangaroo",
-  "Kingfisher",
-  "Koala",
-  "Kookabura",
-  "Kouprey",
-  "Kudu",
-  "Lapwing",
-  "Lark",
-  "Lemur",
-  "Leopard",
-  "Lion",
-  "Llama",
-  "Lobster",
-  "Locust",
-  "Loris",
-  "Louse",
-  "Lyrebird",
-  "Magpie",
-  "Mallard",
-  "Manatee",
-  "Mandrill",
-  "Mantis",
-  "Marten",
-  "Meerkat",
-  "Mink",
-  "Mole",
-  "Mongoose",
-  "Monkey",
-  "Moose",
-  "Mosquito",
-  "Mouse",
-  "Mule",
-  "Narwhal",
-  "Newt",
-  "Nightingale",
-  "Octopus",
-  "Okapi",
-  "Opossum",
-  "Oryx",
-  "Ostrich",
-  "Otter",
-  "Owl",
-  "Oyster",
-  "Panther",
-  "Parrot",
-  "Partridge",
-  "Peafowl",
-  "Pelican",
-  "Penguin",
-  "Pheasant",
-  "Pig",
-  "Pigeon",
-  "Pony",
-  "Porcupine",
-  "Porpoise",
-  "Quail",
-  "Quelea",
-  "Quetzal",
-  "Rabbit",
-  "Raccoon",
-  "Rail",
-  "Ram",
-  "Rat",
-  "Raven",
-  "Red deer",
-  "Red panda",
-  "Reindeer",
-  "Rhinoceros",
-  "Rook",
-  "Salamander",
-  "Salmon",
-  "Sand Dollar",
-  "Sandpiper",
-  "Sardine",
-  "Scorpion",
-  "Seahorse",
-  "Seal",
-  "Shark",
-  "Sheep",
-  "Shrew",
-  "Skunk",
-  "Snail",
-  "Snake",
-  "Sparrow",
-  "Spider",
-  "Spoonbill",
-  "Squid",
-  "Squirrel",
-  "Starling",
-  "Stingray",
-  "Stinkbug",
-  "Stork",
-  "Swallow",
-  "Swan",
-  "Tapir",
-  "Tarsier",
-  "Termite",
-  "Tiger",
-  "Toad",
-  "Trout",
-  "Turkey",
-  "Turtle",
-  "Viper",
-  "Vulture",
-  "Wallaby",
-  "Walrus",
-  "Wasp",
-  "Weasel",
-  "Whale",
-  "Wildcat",
-  "Wolf",
-  "Wolverine",
-  "Wombat",
-  "Woodcock",
-  "Woodpecker",
-  "Worm",
-  "Wren",
-  "Yak",
-  "Zebra",
-  "pizza",
-  "berries",
-  "pancakes",
-  "cake",
-  "ice cream",
-  "chips",
-  "waffles",
-  "bacon",
-  "chickpeas",
-  "mushroom",
-  "carrots",
-  "raspberries",
-  "tomatoes",
-  "pie",
-  "onion soup",
-  "rabbit stew",
-  "radish",
-  "fish soup",
-  "The God Creator of this Library, VatsaDev",
-];
+function keycode() {
+  $("body").keydown(function (event) {
+    console.log(event.keyCode);
+  });
+}
 
-//func
-function randomFromList(list) {
-  var word = wordArray[Math.floor(Math.random() * wordArray.length)];
-  return word;
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("include");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4) {
+          if (this.status == 200) {
+            elmnt.innerHTML = this.responseText;
+          }
+          if (this.status == 404) {
+            elmnt.innerHTML = "Page not found.";
+          }
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("include");
+          includeHTML();
+        }
+      };
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
 }
 
 //canvas
@@ -410,10 +183,39 @@ function canvasFill(color) {
   ctx.fill();
 }
 
-function canvasArc(x,y,radius,startAngle,endAngle,clockwise,color, thickness) {
+function canvasArc(
+  x,
+  y,
+  radius,
+  startAngle,
+  endAngle,
+  clockwise,
+  color,
+  thickness
+) {
   var canvas = document.getElementById("canvas");
   var ctx = canvas.getContext("2d");
   ctx.lineWidth = thickness;
   ctx.strokeStyle = color;
   ctx.arc(x, y, radius, startAngle, endAngle, clockwise);
 }
+
+function canvasText(x, y, font, text) {
+  var canvas = document.getElementById("canvas");
+  var ctx = canvas.getContext("2d");
+  ctx.font = font;
+  ctx.fillText(text, x, y);
+}
+
+function canvasStrokeText(x, y, font, text) {
+  var canvas = document.getElementById("canvas");
+  var ctx = canvas.getContext("2d");
+  ctx.font = font;
+  ctx.strokeText(text, x, y);
+}
+
+//starting message
+console.log(
+  "%c Enabled, to use please launch a local or live server.",
+  "background: #222; color: #bada55"
+);
