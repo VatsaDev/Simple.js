@@ -57,4 +57,6 @@ https://code.jquery.com/jquery-2.1.0.js - jquery 2.1.0 <br>
   canvasArc(200, 200, 10, 0, 360, false, "Blue", 4);
   canvasArc(200, 200, 10, 0, 360, false, "Purple", 4);
   
+  canvasClosePath();
 ```
+You can see the obvious difference! Use this today
