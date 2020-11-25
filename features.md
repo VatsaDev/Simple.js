@@ -55,12 +55,12 @@ these require no extra libraries
     ```javascript
     addpage("<p>hello world</p>");
     ```
- - ### Fadeout <br> 
+ - ### Fade out <br> 
    this is Dom manipulation animation and is used to add a fadeout animation <br>
     ```javascript
     addpage("<p>hello world</p>");
     ```
- - ### Fadein <br> 
+ - ### Fade in <br> 
    this is Dom manipulation animation and is used to add a fadedout animation in to the doc again <br>
     ```javascript
     addpage("<p>hello world</p>");
