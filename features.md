@@ -64,5 +64,6 @@ these require no extra libraries
  - ### Fade in <br> 
    this is Dom manipulation animation and is used to add a fadedout animation in to the doc again <br>
     ```javascript
-     fadein("h1", "3");
+     fadein(id, time);
+     //time and seconds
     ```
