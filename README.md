@@ -61,4 +61,9 @@ https://code.jquery.com/jquery-2.1.0.js - jquery 2.1.0 <br>
 ```
 You can see the obvious difference! Use this today.
 <br>
-CDN => <script src = "https://vatsadev.github.io/Simple.js/main.js"></script>
+CDN
+```javascript 
+
+  <script src = "https://vatsadev.github.io/Simple.js/main.js"></script> 
+
+```
