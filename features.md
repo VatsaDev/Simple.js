@@ -1,16 +1,16 @@
 # Welcome to the features page
 Here is the list of feature in this library
- - ## think <br> 
+ - ### think <br> 
    this is console.log and is used like <br>
     ```javascript
     think("hello world")'
     ```
- - ## message <br> 
+ - ### message <br> 
    this is alert and is used like <br>
     ```javascript
     message("hello world")
     ```
- - ## Math <br> 
+ - ### Math <br> 
    these are the math functions and are used like <br>
     ```javascript
     add(x, y)
@@ -32,8 +32,13 @@ Here is the list of feature in this library
     equal(x, y);
     // x == y
     ```
- - ## Question <br>
+ - ### Question <br>
    this is prompt and is used like
    ```javascript
    question("");
    ```
+## JQuery <br> 
+   the following are jquery 2.10 functions <br> use CDN
+    ```javascript
+    message("hello world")
+    ```
