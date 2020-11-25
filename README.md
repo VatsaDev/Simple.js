@@ -13,28 +13,6 @@ https://code.jquery.com/jquery-2.1.0.js - jquery 2.1.0 <br>
 <br>
 ### Without Simple.js 
 <br>
-```javasript
-
-  ctx.lineWidth = 4;
-
-  ctx.strokeStyle = "Red";
-  ctx.beginPath();  
-  ctx.arc(100, 100, 10, 0, Math.PI * 2, false);  
-  ctx.stroke();
-
-  ctx.strokeStyle = "Orange";
-  ctx.beginPath();  
-  ctx.arc(100, 100, 20, 0, Math.PI * 2, false);  
-  ctx.stroke();
-
-  ctx.strokeStyle = "Yellow";
-  ctx.beginPath();  
-  ctx.arc(100, 100, 30, 0, Math.PI * 2, false);  
-  ctx.stroke();
-
-  ctx.strokeStyle = "Green";
-  ctx.beginPath();  
-  ctx.arc(100, 100, 30, 0, Math.PI * 2, false);  
-  ctx.stroke();
+```javascript
 
 ```
