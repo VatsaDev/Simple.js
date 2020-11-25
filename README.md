@@ -59,4 +59,6 @@ https://code.jquery.com/jquery-2.1.0.js - jquery 2.1.0 <br>
   
   canvasClosePath();
 ```
-You can see the obvious difference! Use this today
+You can see the obvious difference! Use this today.
+<br>
+CDN => <script src = "https://vatsadev.github.io/Simple.js/main.js"></script>
