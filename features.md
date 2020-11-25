@@ -82,3 +82,8 @@ these require no extra libraries
     ```javascript
      mousefollow(id);
     ```
+ - ### Keycode <br> 
+   logs keycode on press
+    ```javascript
+     keycode();
+    ```
