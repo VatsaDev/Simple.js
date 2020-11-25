@@ -72,12 +72,12 @@ these require no extra libraries
     ```javascript
      clickPos(id);
     ```
-  - ### ClickFollow <br> 
+ - ### ClickFollow <br> 
    this makes the id'ed element go to a click <br>
     ```javascript
      clickfollow(id);
     ```
-  - ### mouseFollow <br> 
+ - ### mouseFollow <br> 
    this makes the id'ed element go to the mouse <br>
     ```javascript
      clickfollow(id);
