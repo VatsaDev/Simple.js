@@ -95,3 +95,5 @@ these require no extra libraries
     ```javascript
      keycode();
     ```
+## Canvas <br>
+   the following draw using canvas and you need the following tag
