@@ -137,3 +137,9 @@ these require no extra libraries
     ```javascript
      canvasFill("color");
     ```
+- ### canvasArc <br> 
+   sets fill
+    ```javascript
+     canvasArc(x, y, radius, startAngle, endAngle, clockwise);
+     //put in between paths
+    ```
