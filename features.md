@@ -90,9 +90,23 @@ these require no extra libraries
    postion()
    // gets your pos
    getPositionLatitude()
-   // gets your latitude'
+   // gets your latitude
    getPositionLongitude()
    // gets your longitude
+   ```
+   
+ - ### arrays
+   array functions
+   ```javascript
+   joinArray(array1, array2)
+   // joins arrays 
+   removeLastElement(array)
+   addElement(array, content)
+   // content is a string
+   reverse(array)
+   // reverses order
+   removeFirstElement(array)
+   addNewFirstElement(array)
    ```
 ## JQuery <br> 
    the following are jquery 2.10 functions <br> use CDN
