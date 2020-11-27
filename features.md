@@ -88,11 +88,11 @@ these require no extra libraries
 these require https to work and will need a deployed site with https <br> used like 
    ```javascript
    postion()
-   //gets your pos
+   // gets your pos
    getPositionLatitude()
-   //gets your latitude'
+   // gets your latitude'
    getPositionLongitude()
-   //gets your longitude
+   // gets your longitude
    ```
 ## JQuery <br> 
    the following are jquery 2.10 functions <br> use CDN
