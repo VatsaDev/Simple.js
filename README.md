@@ -1,5 +1,4 @@
 # Simple.js v0.1.2
-![https://www.npmjs.com/package/@vatsa/simple.js](badge.svg)
 
 A js library to make things simple <br>
 you can use it to teach people like children, as it is designed to lower unfamiliar symbols and words
@@ -69,5 +68,3 @@ CDN
   <script src = "https://vatsadev.github.io/Simple.js/main.js"></script> 
 
 ```
-<br><br>
-Npm
