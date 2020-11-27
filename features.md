@@ -35,19 +35,19 @@ these require no extra libraries
     equal(x, y);
     // x == y
     minNum(x, y, z)
-    //pick smallest
+    // pick smallest
     maxNum(x, y, z)
-    //pick biggest
+    // pick biggest
     cubeRoot(num)
-    //return cuberoot
+    // return cuberoot
     absolute(num)
-    //return absolute
+    // return absolute
     EulerNum()
-    //return E
+    // return E
     PiNum()
-    //return pi
+    // return pi
     root(num)
-    //gives square root
+    // gives square root
     ```
  - ### Question <br>
    this is prompt and is used like
