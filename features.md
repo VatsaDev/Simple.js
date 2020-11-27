@@ -85,7 +85,15 @@ these require no extra libraries
    <button onclick="audioSound('test/phaseJump1.wav')" type = "button">click me</button>
    ```
 ## geo-location   
-these require https to work and will need a deployed site with https
+these require https to work and will need a deployed site with https <br> used like 
+   ```javascript
+   postion()
+   //gets your pos
+   getPositionLatitude()
+   //gets your latitude'
+   getPositionLongitude()
+   //gets your longitude
+   ```
 ## JQuery <br> 
    the following are jquery 2.10 functions <br> use CDN
     ```
