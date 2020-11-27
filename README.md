@@ -1,4 +1,4 @@
-# Simple.js v0.1.1
+# Simple.js v0.1.2
 ![https://www.npmjs.com/package/@vatsa/simple.js](badge.svg)
 
 A js library to make things simple <br>
