@@ -63,7 +63,7 @@ these require no extra libraries
  - ### audioSoundRepeat <br>
    this is used to forever repeat audio files
    ```javascript
-   <button onclick="audioSound('test/phaseJump1.wav')" type = "button">click me</button>
+   <button onclick="audioSoundRepeat('test/phaseJump1.wav')" type = "button">click me</button>
    ```
  - ### audioSound <br>
    this is used to forever repeat audio files
