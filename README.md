@@ -53,13 +53,13 @@ https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js - lodash 
 ```javascript
   canvasBeginPath("red", 4);
 
-  canvasArc(200, 200, 10, 0, 360, false, "Red", 4);
-  canvasArc(200, 200, 10, 0, 360, false, "Orange", 4);
-  canvasArc(200, 200, 10, 0, 360, false, "Yellow", 4);
-  canvasArc(200, 200, 10, 0, 360, false, "Green", 4);
-  canvasArc(200, 200, 10, 0, 360, false, "Blue", 4);
-  canvasArc(200, 200, 10, 0, 360, false, "Purple", 4);
-  
+      canvasArc(200, 200, 10, 0, 360, false, "Red", 4);
+      canvasArc(200, 200, 20, 0, 360, false, "Orange", 4);
+      canvasArc(200, 200, 30, 0, 360, false, "Yellow", 4);
+      canvasArc(200, 200, 40, 0, 360, false, "Green", 4);
+      canvasArc(200, 200, 50, 0, 360, false, "Blue", 4);
+      canvasArc(200, 200, 60, 0, 360, false, "Purple", 4);
+
   canvasClosePath();
 ```
 You can see the obvious difference! Use this today.
