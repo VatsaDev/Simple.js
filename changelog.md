@@ -4,4 +4,5 @@
  - 25/11/20 - Added repeat function
  - 27/11/20 - Added Audio functions
  - 27/11/20 - v0.1.1 released
+ - 27/11/20 - Added npm, v0.1.2 released
 
