@@ -10,7 +10,7 @@ to see full features list click [Here](features.md)<br>
 to see changelog click [Here](changelog.md)<br><br>
 to use include these CDNs <br>
 https://code.jquery.com/jquery-2.1.0.js - jquery 2.1.0 <br>
-https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js - lodash 4.17.20 <br>
+https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js - lodash 4.17.20 (***for repeat only***) <br>
 ## Examples 
 ### Without Simple.js 
 <br>
