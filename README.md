@@ -1,5 +1,5 @@
 # Simple.js v0.1.1
-![https://www.npmjs.com/package/@vatsa/simple.js](https://img.shields.io/badge/npm-0.1.2-blue)
+![https://www.npmjs.com/package/@vatsa/simple.js](badge.svg)
 
 A js library to make things simple <br>
 you can use it to teach people like children, as it is designed to lower unfamiliar symbols and words
