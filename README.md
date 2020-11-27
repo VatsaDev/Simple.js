@@ -70,3 +70,5 @@ CDN
   <script src = "https://vatsadev.github.io/Simple.js/main.js"></script> 
 
 ```
+download file <br>
+<a href="main.js" download>Click here to download</a>
