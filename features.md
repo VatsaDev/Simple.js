@@ -84,8 +84,8 @@ these require no extra libraries
    ```javascript
    <button onclick="audioSound('test/phaseJump1.wav')" type = "button">click me</button>
    ```
-## geo-location   
-these require https to work and will need a deployed site with https <br> used like 
+ - ### geo-location   
+   these require https to work and will need a deployed site with https <br> used like 
    ```javascript
    postion()
    // gets your pos
