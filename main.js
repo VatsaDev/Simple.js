@@ -1,3 +1,8 @@
+//starting message
+console.log(
+  "%c Enabled, to use please launch a local or live server.",
+  "background: #222; color: #bada55"
+);
 //program
 function think(statement) {
   console.log(statement);
@@ -238,8 +243,26 @@ function canvasStrokeText(x, y, font, text) {
   ctx.strokeText(text, x, y);
 }
 
-//starting message
-console.log(
-  "%c Enabled, to use please launch a local or live server.",
-  "background: #222; color: #bada55"
-);
+//audio
+
+function audioSoundRepeat(url) {
+  var audio = new Audio(url);
+
+  audio.oncanplaythrough = function () {
+    audio.play();
+  };
+
+  audio.loop = loop;
+
+  audio.onended = function () {
+    audio.play();
+  };
+}
+
+function audioSound(url) {
+  var audio = new Audio(url);
+
+  audio.oncanplaythrough = function () {
+    audio.play();
+  };
+}
