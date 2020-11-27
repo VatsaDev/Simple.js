@@ -1,4 +1,4 @@
-# Simple.js v0.0.1
+# Simple.js v0.1.1
 A js library to make things simple <br>
 you can use it to teach people like children, as it is designed to lower unfamiliar symbols and words
 <br>
