@@ -34,6 +34,13 @@ these require no extra libraries
     // x = min, y = max
     equal(x, y);
     // x == y
+    minNum(x, y, z)
+    maxNum(x, y, z)
+    cubeRoot(num)
+    absolute(num)
+    EulerNum()
+    PiNum()
+    root(num)
     ```
  - ### Question <br>
    this is prompt and is used like
