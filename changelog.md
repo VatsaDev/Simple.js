@@ -2,4 +2,5 @@
  - 25/11/20 - v0.0.1 released
  - 25/11/20 - Added gradient fill (linear and radial, 2 colors only)
  - 25/11/20 - Added repeat function
+ - 27/11/20 - Added Audio functions
 
