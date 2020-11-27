@@ -80,7 +80,7 @@ these require no extra libraries
    <button onclick="audioSoundRepeat('test/phaseJump1.wav')" type = "button">click me</button>
    ```
  - ### audioSound <br>
-   this is used to forever repeat audio files
+   this is used to play audio files once
    ```javascript
    <button onclick="audioSound('test/phaseJump1.wav')" type = "button">click me</button>
    ```
