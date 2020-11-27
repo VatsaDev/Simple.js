@@ -62,10 +62,12 @@ https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js - lodash 
   canvasClosePath();
 ```
 You can see the obvious difference! Use this today.
-<br>
+<br><br>
 CDN
 ```javascript 
 
   <script src = "https://vatsadev.github.io/Simple.js/main.js"></script> 
 
 ```
+<br><br>
+Npm
