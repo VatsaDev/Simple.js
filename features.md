@@ -60,6 +60,17 @@ these require no extra libraries
    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
    //the html CDN
    ```
+ - ### audioSoundRepeat <br>
+   this is used to forever repeat audio files
+   ```javascript
+   <button onclick="audioSound('test/phaseJump1.wav')" type = "button">click me</button>
+   ```
+ - ### audioSound <br>
+   this is used to forever repeat audio files
+   ```javascript
+   <button onclick="audioSound('test/phaseJump1.wav')" type = "button">click me</button>
+   ```
+   
 ## JQuery <br> 
    the following are jquery 2.10 functions <br> use CDN
     ```
