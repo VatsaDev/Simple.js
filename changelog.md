@@ -6,4 +6,5 @@
  - 27/11/20 - v0.1.1 released
  - 27/11/20 - v0.1.2 released
  - 27/11/20 - v0.1.3 released, many new features
+ - 28/11/20 - v0.1.6 released, npm added
 
