@@ -71,4 +71,11 @@ CDN
 
 ```
 download file <br>
-<a href="main.js" download>Click here to download</a>
+<a href="main.js" download>Click here to go to file</a>
+use as
+
+```javascript 
+
+  <script src = "path/to/main.js"></script> 
+
+```
