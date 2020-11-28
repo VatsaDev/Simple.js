@@ -79,3 +79,13 @@ download file <br>
   <script src = "path/to/main.js"></script> 
   // use like this
 ```
+
+Npm 
+
+```javascript 
+  npm install "@vatsa/simple.js"
+  //install
+  
+  var simple = require("@vatsa/simple.js")
+  //import in
+```
