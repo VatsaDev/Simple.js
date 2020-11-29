@@ -84,6 +84,11 @@ these require no extra libraries
    ```javascript
    <button onclick="audioSound('test/phaseJump1.wav')" type = "button">click me</button>
    ```
+ - ### dragHtml <br>
+   drag any element
+   ```javascript
+   dragHtml(id)
+   ```
  - ### geo-location   
    these require https to work and will need a deployed site with https <br> used like 
    ```javascript
