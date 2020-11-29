@@ -230,3 +230,18 @@ these require no extra libraries
     canvasStrokeText(x, y, font, text)
     ```
 ## two.js
+- ### twoRect <br> 
+   use two.js to make an svg rect
+    ```javascript
+    twoRect(x, y, width, height, colorstroke, colorfill)
+    ```
+- ### twoCircle <br> 
+   use two.js to make an svg circle
+    ```javascript
+    twoCircle(x, y, radius, colorstroke, colorfill, thickness)
+    ```
+- ### twoRoundRect <br> 
+   use two.js to make an svg rounded rect
+    ```javascript
+    twoRoundRect(x, y, width, height, radius, colorstroke, colorfill)
+    ```
