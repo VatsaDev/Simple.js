@@ -1,8 +1,10 @@
 //starting message
 console.log(
-  "%c Enabled, to use please launch a local or live server.",
+  "%c Enabled, to use please launch a local or live server. Made by sensei VatsaDev",
   "background: #222; color: #bada55"
 );
+//globals
+var game;
 //program
 
 //normal
@@ -46,6 +48,51 @@ function includeHTML() {
       xhttp.send();
       /*exit the function:*/
       return;
+    }
+  }
+}
+
+function dragHtml(id) {
+  dragElement(document.getElementById(id));
+  document.getElementById(id).style.position = "absolute";
+  function dragElement(elmnt) {
+    var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+    if (document.getElementById(elmnt.id + "header")) {
+      // if present, the header is where you move the DIV from:
+      document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+    } else {
+      // otherwise, move the DIV from anywhere inside the DIV:
+      elmnt.onmousedown = dragMouseDown;
+    }
+  
+    function dragMouseDown(e) {
+      e = e || window.event;
+      e.preventDefault();
+      // get the mouse cursor position at startup:
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      document.onmouseup = closeDragElement;
+      // call a function whenever the cursor moves:
+      document.onmousemove = elementDrag;
+    }
+  
+    function elementDrag(e) {
+      e = e || window.event;
+      e.preventDefault();
+      // calculate the new cursor position:
+      pos1 = pos3 - e.clientX;
+      pos2 = pos4 - e.clientY;
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      // set the element's new position:
+      elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+      elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+    }
+  
+    function closeDragElement() {
+      // stop moving when mouse button is released:
+      document.onmouseup = null;
+      document.onmousemove = null;
     }
   }
 }
@@ -238,57 +285,44 @@ function repeat(times, func) {
 }
 
 //canvas
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+
 function canvasRectStroke(x, y, width, height, color, thickness) {
-  var canvas = document.getElementById("canvas");
-  var ctx = canvas.getContext("2d");
   ctx.strokeStyle = color;
   ctx.lineWidth = thickness;
   ctx.strokeRect(x, y, width, height);
 }
 
 function canvasRect(x, y, width, height, color) {
-  var canvas = document.getElementById("canvas");
-  var ctx = canvas.getContext("2d");
   ctx.fillStyle = color;
   ctx.fillRect(x, y, width, height);
 }
 
 function canvasBeginPath(color, thickness) {
-  var canvas = document.getElementById("canvas");
-  var ctx = canvas.getContext("2d");
   ctx.strokeStyle = color;
   ctx.lineWidth = thickness;
   ctx.beginPath();
 }
 
 function canvasMove(x, y) {
-  var canvas = document.getElementById("canvas");
-  var ctx = canvas.getContext("2d");
   ctx.moveTo(x, y);
 }
 
 function canvasLine(x, y) {
-  var canvas = document.getElementById("canvas");
-  var ctx = canvas.getContext("2d");
   ctx.lineTo(x, y);
 }
 
 function canvasClosePath() {
-  var canvas = document.getElementById("canvas");
-  var ctx = canvas.getContext("2d");
   ctx.stroke();
 }
 
 function canvasFill(color) {
-  var canvas = document.getElementById("canvas");
-  var ctx = canvas.getContext("2d");
   ctx.fillStyle = color;
   ctx.fill();
 }
 
 function canvasGradientFillLinear(color1, color2) {
-  var canvas = document.getElementById("canvas");
-  var ctx = canvas.getContext("2d");
   var grd = ctx.createLinearGradient(0, 0, 200, 0);
   grd.addColorStop(0, color1);
   grd.addColorStop(1, color2);
@@ -297,8 +331,6 @@ function canvasGradientFillLinear(color1, color2) {
 }
 
 function canvasGradientFillRadial(color1, color2) {
-  var canvas = document.getElementById("canvas");
-  var ctx = canvas.getContext("2d");
   var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
   grd.addColorStop(0, color1);
   grd.addColorStop(1, color2);
@@ -316,23 +348,18 @@ function canvasArc(
   color,
   thickness
 ) {
-  var canvas = document.getElementById("canvas");
-  var ctx = canvas.getContext("2d");
   ctx.lineWidth = thickness;
   ctx.strokeStyle = color;
+  ctx.fillStyle = color;
   ctx.arc(x, y, radius, startAngle, endAngle, clockwise);
 }
 
 function canvasText(x, y, font, text) {
-  var canvas = document.getElementById("canvas");
-  var ctx = canvas.getContext("2d");
   ctx.font = font;
   ctx.fillText(text, x, y);
 }
 
 function canvasStrokeText(x, y, font, text) {
-  var canvas = document.getElementById("canvas");
-  var ctx = canvas.getContext("2d");
   ctx.font = font;
   ctx.strokeText(text, x, y);
 }
@@ -359,4 +386,34 @@ function audioSound(url) {
   audio.oncanplaythrough = function () {
     audio.play();
   };
+}
+
+//two.js
+
+function twoRect(x, y, width, height, colorstroke, colorfill) {
+  var elem = document.getElementById("draw-area");
+  var two = new Two({ fullscreen: false }).appendTo(elem);
+  var rect = two.makeRectangle(x, y, width, height);
+  rect.stroke = colorstroke;
+  rect.fill = colorfill;
+  two.update();
+}
+
+function twoCircle(x, y, radius, colorstroke, colorfill, thickness) {
+  var elem = document.getElementById("draw-area");
+  var two = new Two({ fullscreen: false }).appendTo(elem);
+  var circle = two.makeCircle(x, y, radius);
+  circle.stroke = colorstroke;
+  circle.fill = colorfill;
+  circle.linewidth = thickness;
+  two.update();
+}
+
+function twoRoundRect(x, y, width, height, radius, colorstroke, colorfill) {
+  var elem = document.getElementById("draw-area");
+  var two = new Two({ fullscreen: false }).appendTo(elem);
+  var roundedRect = new Two.RoundedRectangle(x, y, width, height, radius);
+  roundedRect.stroke = colorstroke;
+  roundedRect.fill = colorfill;
+  two.update();
 }
