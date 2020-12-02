@@ -68,7 +68,7 @@ You can see the obvious difference! Use this today.
 CDN
 ```javascript 
 
-  <script src = "https://vatsadev.github.io/Simple.js/main.js"></script> 
+  <script src = "https://vatsadev.github.io/Simple.js/main v1.js"></script> 
 
 ```
 download file <br>
