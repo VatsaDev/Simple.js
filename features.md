@@ -100,6 +100,20 @@ these require no extra libraries
    // gets your longitude
    ```
    
+ - ### stings
+   strings functions
+   ```javascript
+   joinArray(array1, array2)
+   // joins arrays 
+   removeLastElement(array)
+   addElement(array, content)
+   // content is a string
+   reverse(array)
+   // reverses order
+   removeFirstElement(array)
+   addNewFirstElement(array)
+   ```
+   
  - ### arrays
    array functions
    ```javascript
