@@ -103,15 +103,11 @@ these require no extra libraries
  - ### stings
    strings functions
    ```javascript
-   joinArray(array1, array2)
-   // joins arrays 
-   removeLastElement(array)
-   addElement(array, content)
-   // content is a string
-   reverse(array)
-   // reverses order
-   removeFirstElement(array)
-   addNewFirstElement(array)
+   
+   stringLength(str)
+   stringJoin(str1, str2)
+   stringLetter(str, num)
+   stringSplice(str, l1, l2)
    ```
    
  - ### arrays
