@@ -1,8 +1,8 @@
-# Simple.js v0.1.8
+# Simple.js v1.0.0
 
 [![GitHub license](https://img.shields.io/github/license/VatsaDev/Simple.js)](https://github.com/VatsaDev/Simple.js/blob/main/LICENSE)<br>
-[![version](https://img.shields.io/badge/version-0.1.8-blue)](https://github.com/VatsaDev/Simple.js/blob/main/main.js)<br>
-[![npm](https://img.shields.io/badge/npm-0.1.8-blue)](https://www.npmjs.com/package/@vatsa/simple.js)<br><br>
+[![version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/VatsaDev/Simple.js/blob/main/main.js)<br>
+[![npm](https://img.shields.io/badge/npm-1.0.0-blue)](https://www.npmjs.com/package/@vatsa/simple.js)<br><br>
 A js library to make things simple <br>
 you can use it to teach people like children, as it is designed to lower unfamiliar symbols and words
 <br>
