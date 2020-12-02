@@ -9,4 +9,4 @@
  - 28/11/20 - v0.1.6 released, npm added
  - 28/11/20 - v0.1.7 released
  - 29/11/20 - v0.1.8 released, added two.js
-
+ - 2/12/20 - v1 released, added strings
